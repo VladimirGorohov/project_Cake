@@ -1,0 +1,6 @@
+.Header__logo {
+    margin-right: 40px;
+    font-family: 'Marck Script';
+    font-size: 50px;
+    transform: rotate(-15deg);
+}

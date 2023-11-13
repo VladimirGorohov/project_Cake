@@ -1,0 +1,58 @@
+
+p {
+  color: white;  
+}
+
+.Header__menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icons{
+    font-size: 30px;
+    color: white;
+}
+
+.Icons__Chat:hover {
+    color: gold;
+}
+
+.Icons__Instagram:hover{
+    color: gold;
+}
+
+.Icons__WhatsApp:hover{
+    color: gold;
+}
+.Icons__Chat,
+.Icons__WhatsApp,
+.Icons__Instagram
+{
+    margin: 10px;
+}
+
+.Contacts__btn{
+    margin-left: 100px;
+    text-transform: uppercase;
+    border: 2px solid rgb(241, 239, 226);
+    padding: 8px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.Contacts__btn:hover{
+    background: gold;
+    color: white;
+}
+
+
+
+

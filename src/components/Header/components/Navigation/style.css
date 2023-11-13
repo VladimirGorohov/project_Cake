@@ -1,0 +1,22 @@
+.Header__nav {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.nav__item {
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.item {
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.item:hover{
+   color: rgb(245, 209, 236);
+}

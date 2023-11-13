@@ -1,0 +1,73 @@
+.block__2{
+    text-align: center;
+}
+
+.header {
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-size: 35px;
+}
+
+.types__cake {
+    display: flex;
+    justify-content: space-between;
+}
+
+.type__cake{
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.cake {
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    transition: color 500ms;
+}
+
+.cake:hover,
+.cake.active {
+    color: rgb(245, 209, 236);
+    border-bottom: 1px solid rgb(245, 209, 236);
+}
+
+.active {
+    color: rgb(245, 209, 236);
+    border-bottom: 1px solid rgb(245, 209, 236);
+}
+
+.cake__disc {
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    padding: 5px 10px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.cake__img {
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    border-radius: 50%;
+}
+
+.cake__text {
+    color: black;
+    max-width: 300px;
+    font-size: 25px;
+}
+
+.cake__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cake__text__box {
+    text-align: initial;
+}

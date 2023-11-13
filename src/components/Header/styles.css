@@ -1,0 +1,14 @@
+.Header {
+    background: rgb(148, 147, 147)
+    
+}
+
+
+
+.Header__wrap {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    height: 120px;
+}
